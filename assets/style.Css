@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(44, 39, 41);
+    color: rgba(109, 7, 204, 0.747);
+}
+
+header{
+    text-align: center;
+    border: 5px solid;
+}
+
+section{
+    margin: 50px;
+    border: 3px solid;
+    text-align: center;
+    flex-direction: column;
+}
+
+pre{
+    align-content: center;
+}
+
+content{
+    background: linear-gradient(rgb(58, 3, 58), rgb(146, 44, 146));
+    width: 100%;
+    height: 100%;
+}
+
+.cheats{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.codesnip .card-header{
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.codesnip:hover,
+.codesnip:hover .card-header{
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1) 0 0 15px
+    rgba(232, 102, 236, 1);
+}
